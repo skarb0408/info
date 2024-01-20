@@ -2070,7 +2070,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		/*padding: 5em 0 4em 0;*/
 		text-align: center;
 	}
 
@@ -2185,8 +2185,8 @@ input, select, textarea {
 		/*text-align: center;*/
 		position: relative;
 		padding: 8em 0;
-		margin: 4em 0 0 0;
-		height: 38em;
+		/*margin: 4em 0 0 0;*/
+		height: 35em;
 	}
 
 		#banner header {
@@ -2196,8 +2196,9 @@ input, select, textarea {
 			padding: 2.5em 5em;
 			border-radius: 5px;
 			position: absolute;
-			left: 3%;
+			left: 0;
 			top: 30%;
+			width: 100%;
 		}
 
 			#banner header h2 {
@@ -2302,7 +2303,8 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		color: #858484;
-		padding: 4em 0;
+		/*padding: 4em 0;*/
+		padding-top: 4em;
 	}
 
 		#footer:before {
@@ -2345,10 +2347,9 @@ input, select, textarea {
 			}
 
 /* Copyright */
-
 	#copyright {
 		text-align: center;
-		margin: 3em 0 2em 0;
+		/*margin: 3em 0 2em 0;*/
 	}
 
 		#copyright ul.links {
@@ -2401,7 +2402,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 3em 0;
+				/*padding: 4em 0 3em 0;*/
 			}
 
 		/* Banner */
@@ -2493,7 +2494,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 3.5em 0 3em 0;
+				/*padding: 3.5em 0 3em 0;*/
 			}
 
 		/* Nav */
@@ -2856,7 +2857,7 @@ input, select, textarea {
 
 			#header {
 				text-align: center;
-				padding: 2em 0;
+				/*padding: 2em 0;*/
 			}
 
 				#header h1 {
@@ -2892,11 +2893,13 @@ input, select, textarea {
 					padding: 1.5em 1em 1.5em 1em;
 					display: block;
 					border-radius: 0;
+					font-size: smaller;
+					top: 30%;
 				}
 
 					#banner header h2 {
-						font-size: 1.5em;
-						line-height: 1.5em;
+						font-size: 5.5em;
+						line-height: 0.8em;
 						margin: 0 0 0.25em 0;
 					}
 

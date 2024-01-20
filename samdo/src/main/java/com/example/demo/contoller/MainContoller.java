@@ -49,7 +49,12 @@ public class MainContoller {
 	
 	@RequestMapping(value = "/test")
 	public String test2() {
-		
 		return "index";
+	}
+	
+	@RequestMapping(value = "/subMain")
+	public String subMain() {
+		System.out.println("subMain");
+		return "/sub/index";
 	}
 }
